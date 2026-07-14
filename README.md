@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/uv-managed-6340ac?logo=uv&logoColor=white" alt="uv">
   <img src="https://img.shields.io/badge/-Weights%20%26%20Biases-FFBE00?logo=weightsandbiases&logoColor=black" alt="W&B">
   <img src="https://img.shields.io/static/v1?label=License&message=CC%20BY-NC-SA%204.0&color=blue" alt="License">
+  <a href="https://arxiv.org/abs/2606.31811"><img src="https://img.shields.io/badge/arXiv-2606.31811-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://huggingface.co/PRAIG/musvit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-PRAIG%2Fmusvit-yellow" alt="HuggingFace"></a>
 </p>
 
 <p align="center">
@@ -18,6 +20,7 @@
   <a href="#environment-variables">Environment Variables</a> •
   <a href="#running-experiments">Running Experiments</a> •
   <a href="#citations">Citations</a> •
+  <a href="#acknowledgements">Acknowledgements</a> •
   <a href="#license">License</a>
 </p>
 
@@ -42,8 +45,8 @@ This project includes:
 | --- | --- |
 | [`musvit/`](musvit/) | Central launcher (`musvit` CLI): discovers and runs the experiments. |
 | [`experiments/full_page_omr/`](experiments/full_page_omr/) | Fine-tune MuSViT for full-page Optical Music Recognition (OMR). |
-| [`experiments/embeddings_test/`](experiments/embeddings_test/) | Compare vision-encoder embedding distances against transcription distances. |
 | [`experiments/object_detection/`](experiments/object_detection/) | Fine-tune MuSViT for Object Detection (OD). |
+| [`experiments/embeddings_test/`](experiments/embeddings_test/) | Compare vision-encoder embedding distances against transcription distances. |
 
 <a name=installation></a>
 ## 🔧 Installation
@@ -149,6 +152,13 @@ Model sets: `light`, `default`, `full` (defined in [`experiments/embeddings_test
   year      = {2026}
 }
 ```
+
+<a name=acknowledgements></a>
+## 🙏 Acknowledgements
+
+The authors gratefully acknowledge Edward Guo, on behalf of IMSLP/Petrucci Music Library, for providing access to the data used to train the models.
+
+This publication is part of the LEMUR project PID2023-148259NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU. The first author is supported by the University of Alicante through the FPU Program (UAFPU22-19). The third author is supported by a predoctoral contract associated with the LEMUR project. The fourth author is supported by a predoctoral contract from grant CISEJI/2023/9 "Programa para el apoyo a personas investigadoras con talento (Plan GenT) de la Generalitat Valenciana".
 
 <a name=license></a>
 ## 📝 License
