@@ -1,5 +1,5 @@
 <p align="center">
-  <a  href="#"> <img src="https://raw.githubusercontent.com/OMR-PRAIG-UA-ES/MuSViT/refs/heads/main/resources/musvit_logo.svg" alt="MuSViT-logo" width="100"></a>
+  <a  href="#"> <img src="https://raw.githubusercontent.com/OMR-PRAIG-UA-ES/MuSViT/refs/heads/main/resources/musvit_logo.svg" alt="MuSViT-logo" width="25%"></a>
 </p>
 <h1 align="center">MuSViT: A Foundation Vision Model for Sheet Music Representation</h1>
 <h4 align="center">📄 Official publication at ECCV 2026.</h4>
